@@ -1,0 +1,48 @@
+.links{
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    .link{
+        font-size: 40px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .list{
+        margin: 25px 15px;
+    }
+    .link :hover{
+        text-decoration: underline;
+    }   
+    .img-cont{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        right: 150px;
+        bottom: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-slider{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .img-body{
+        position: relative;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media (min-width: 430px){
+        .list{
+            margin: 25px 75px;
+        }
+        .link{
+            font-size: 47px;
+        }
+    }
+}

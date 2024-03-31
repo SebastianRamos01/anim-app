@@ -1,0 +1,26 @@
+.burguer{
+    position: relative;
+    width: 20px;
+    height: 15px;
+  }
+  .stick-top{
+    position: absolute;
+    top: 8%;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1px;
+  }
+  .stick-bot{
+    position: absolute;
+    bottom: 8%;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1px;
+  }
+  .stick-short{
+    position: absolute;
+    background-color: #ffffff;
+    width: 70%;
+    height: 1px;
+    bottom: 50%;
+  }

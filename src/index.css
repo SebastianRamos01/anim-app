@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.img-box{
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 87dvh;
+}
+.img-box-vert{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: #141D22;
+}
+.title{
+  font-family: "Zen Tokyo Zoo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  width: 320px;
+  text-align: center;
+  z-index: 0;
+}
+.word{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.word-mid{
+  display: flex;
+  justify-content: center;
+  color: #FF0000;
+}
+.leter{
+  font-size: 40px;
+}
+.text-link{
+  text-decoration: underline;
+}
+.head{
+  width: 100%;
+  padding: 5px 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  z-index: 1;
+  color: #ffffff;
+}
+.logo-box{
+  width: 35px;
+}
+.foot{
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 10px;
+  position: absolute;
+  color: #ffffff;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text{
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+@media (min-width: 430px){
+  .img-box-vert{
+    display: none
+  }
+  .img-box{
+    display: block
+  }
+  .head{
+    justify-content: center
+  }
+  .title{
+    font-size: 47px
+  }
+};
