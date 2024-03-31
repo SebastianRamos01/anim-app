@@ -42,6 +42,7 @@
         }
         .title{
             font-size: 47px;
+            text-align: start;
         }
         .text{
             text-align: start;
