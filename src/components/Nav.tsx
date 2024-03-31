@@ -22,7 +22,7 @@ const variants = {
 export default function Nav() {
 
     const [isOpen, setIsOpen] = useState<boolean>(false)
-    const toggleDropdown = (state: boolean) => {
+    const toggleDropdown = () => {
         setIsOpen(!isOpen)
       }
 
@@ -30,7 +30,7 @@ export default function Nav() {
     <nav className="">
       <button 
         className="button" 
-        onClick={() => toggleDropdown(isOpen)}>
+        onClick={() => toggleDropdown()}>
           <Menu isOpen={isOpen} setIsOpne={setIsOpen}></Menu>
       </button>
         <motion.ul 
