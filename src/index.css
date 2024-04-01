@@ -52,6 +52,7 @@ main{
 }
 .text-link{
   text-decoration: underline;
+  color: #ffffff;
 }
 .head{
   width: 100%;

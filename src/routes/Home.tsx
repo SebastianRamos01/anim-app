@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import Header from "../components/Header"
 import Inner from "../components/Inner"
+import { Link } from "react-router-dom"
 
 const title1 = ["M", "U", "S", "I", "C"]
 const title2 = ["I","N","M","E","R","S","I","V","E",]
@@ -74,9 +75,9 @@ export default function Home() {
           <p className="text">
             2024, Ramos Sebastian
           </p>
-          <p className="text-link">
+          <Link to={"https://www.instagram.com/_sbaramos/"} className="text-link">
             Instagram
-          </p>
+          </Link>
         </footer>
       </main>
     </Inner>
