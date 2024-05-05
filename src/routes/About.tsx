@@ -14,6 +14,9 @@ export default function About() {
     <Inner>
         <Header></Header>
       <div className='about'>
+        <div className='img'>
+          <img src={`/images/${ref?.img}`} alt="imge" />
+        </div>
         <div className='body'>
           <div className='title'>
             {ref?.title}
@@ -21,9 +24,6 @@ export default function About() {
           <p className='text'>
             {ref?.description}
           </p>
-        </div>
-        <div className='img'>
-          <img src={`/images/${ref?.img}`} alt="imge" />
         </div>
       </div>
     </Inner>
